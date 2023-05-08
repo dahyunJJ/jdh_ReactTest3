@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dahyunJJ/jdh_ReactTest3/static/css/main.14485c24.css",
+    "main.js": "/dahyunJJ/jdh_ReactTest3/static/js/main.bd59cc3d.js",
+    "static/js/787.dfe8b844.chunk.js": "/dahyunJJ/jdh_ReactTest3/static/js/787.dfe8b844.chunk.js",
+    "index.html": "/dahyunJJ/jdh_ReactTest3/index.html",
+    "main.14485c24.css.map": "/dahyunJJ/jdh_ReactTest3/static/css/main.14485c24.css.map",
+    "main.bd59cc3d.js.map": "/dahyunJJ/jdh_ReactTest3/static/js/main.bd59cc3d.js.map",
+    "787.dfe8b844.chunk.js.map": "/dahyunJJ/jdh_ReactTest3/static/js/787.dfe8b844.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14485c24.css",
+    "static/js/main.bd59cc3d.js"
+  ]
+}
