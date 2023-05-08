@@ -25,7 +25,7 @@ function EventList() {
           <SwiperSlide>
             <div className="bgImg">
               <img
-                src={`${process.env.PUBLIC_URL}/img/img_bg1.jpg`}
+                src={`${process.env.PUBLIC_URL}/img/Img_bg1.jpg`}
                 alt="bg1"
               />
             </div>
@@ -40,7 +40,7 @@ function EventList() {
           <SwiperSlide>
             <div className="bgImg">
               <img
-                src={`${process.env.PUBLIC_URL}/img/img_bg2.jpg`}
+                src={`${process.env.PUBLIC_URL}/img/Img_bg2.jpg`}
                 alt="bg2"
               />
             </div>
@@ -48,7 +48,7 @@ function EventList() {
           <SwiperSlide>
             <div className="bgImg">
               <img
-                src={`${process.env.PUBLIC_URL}/img/img_bg3.jpg`}
+                src={`${process.env.PUBLIC_URL}/img/Img_bg3.jpg`}
                 alt="bg3"
               />
             </div>
