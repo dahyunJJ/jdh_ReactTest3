@@ -1,0 +1,91 @@
+@import url(./myreset.css);
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.mw {
+  max-width: 1248px;
+  width: calc(100% - 2rem);
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+/* Header */
+.hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.gnb {
+  /* border: 1px solid red; */
+  width: calc(100% - 200px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gnb .logo {
+  padding: 1rem 0;
+  width: 158px;
+}
+.gnb .logo img {
+  width: 100%;
+}
+.gnb .gnbList a {
+  display: inline-block;
+  padding: 0 2rem;
+}
+.personIcon {
+  /* border: 1px solid red; */
+  width: 200px;
+  text-align: center;
+  position: relative;
+}
+.personIcon::before {
+  content: "";
+  border-left: 1px solid #888;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.personIcon i {
+  padding: 0 1rem;
+}
+
+/* Footer */
+.ft {
+  margin-top: 4rem;
+  border-top: 1px solid #eaeaea;
+}
+.linkCon,
+.socialCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.linkCon > div a {
+  padding-right: 2rem;
+}
+.linkCon input {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #666;
+  padding: 0.5rem;
+}
+.socialCon > div i {
+  padding-left: 2rem;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .gnbList {
+    display: none;
+  }
+}

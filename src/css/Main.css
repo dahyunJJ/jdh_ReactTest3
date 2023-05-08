@@ -1,0 +1,173 @@
+/* EventList */
+.bannerCon {
+  /* border: 1px solid blue; */
+  position: relative;
+  height: 60vh;
+  overflow: hidden;
+}
+.bannerList {
+  height: 100%;
+}
+
+.bannerCon .bgImg img {
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.bgText {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.bgText h1 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.bgText span {
+  padding: 1rem 0;
+}
+.bgText .btnView {
+  width: 80%;
+  color: white;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid white;
+}
+
+/* ProductCard */
+.cardCon {
+  margin-top: 4rem;
+}
+.cardCon .cardTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.cardCon .cardTitle h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.cardCon .cardTitle .btnAll {
+  color: #888;
+}
+
+.cardList {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cardInnerList {
+  width: calc(100% / 3 - 2rem);
+  margin-bottom: 2rem;
+  position: relative;
+}
+.cardInnerList img {
+  width: 100%;
+}
+.cardInnerList p:first-of-type {
+  font-weight: bold;
+}
+.cardInnerList p:last-of-type {
+  color: burlywood;
+}
+.cardInnerList .btnDetail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: transparent;
+}
+.cardInnerList span {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: transparent;
+  transition: 0.3s;
+}
+.cardInnerList:hover .btnDetail {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.cardInnerList:hover span {
+  font-weight: bold;
+  color: #333;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* AllList */
+.CateCon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.CateCon h1 {
+  width: 100%;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+.shopLnb {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+.shopLnb button {
+  padding: 0.5rem 0;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #888;
+}
+
+.CateCon .cardList {
+  width: 80%;
+}
+
+/* Detail */
+.pdDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.pdDetail .pdImg,
+.pdDetail .detailCon {
+  width: calc(50% - 1rem);
+}
+
+.pdDetail .pdImg img {
+  width: 100%;
+}
+.pdDetail .detailCon div {
+  padding: 2rem;
+}
+.detailCon {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+.detailCon .detailConTitle {
+  font-size: 1.2rem;
+}
+.detailCon .detailConPrice {
+  font-weight: bold;
+  color: burlywood;
+}
+
+.btnCount {
+  display: flex;
+  justify-content: space-between;
+}
+.detailCon .btnCount button {
+  border: none;
+  outline: none;
+}
+.detailCon p {
+  width: calc(100% - 2rem);
+  margin: auto;
+}
